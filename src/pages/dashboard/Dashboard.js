@@ -13,18 +13,7 @@ const Dashboard = () => {
                         alert('Success')
                     }}
                 >
-                    Checkout to Form
-                </Button>
-            </Link>
-            <Link href='/Client' underline="none">
-                <Button
-                    variant='contained'
-                    color='success'
-                    onClick={() => {
-                        alert('Success')
-                    }}
-                >
-                    Try to Click me!
+                    Add Wedding Organizer
                 </Button>
             </Link>
         </div>

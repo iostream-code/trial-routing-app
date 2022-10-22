@@ -14,7 +14,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Client', 'Anlytics', 'Profile'];
+const pages = ['Client', 'Analytics', 'Profile'];
 const settings = ['Dashboard', 'Profile', 'Logout'];
 
 const ResponsiveAppBar = () => {
