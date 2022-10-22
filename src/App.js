@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import ResponsiveAppBar from "./components/ResponsiveAppBar";
+import { Routes, Route } from "react-router";
+import Dashboard from "./pages/dashboard/Dashboard";
+import Client from "./pages/client/Client";
+import Analytics from "./pages/analytics/Analytics";
+import Profile from "./pages/profile/Profile";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ResponsiveAppBar />
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/Client" element={<Client />} />
+        <Route path="/Analytics" element={<Analytics />} />
+        <Route path="/Profile" element={<Profile />} />
+      </Routes>
     </div>
   );
 }
