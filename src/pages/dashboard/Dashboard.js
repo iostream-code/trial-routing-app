@@ -13,7 +13,7 @@ const Dashboard = () => {
                         alert('Success')
                     }}
                 >
-                    Try to Click me!
+                    Checkout to Form
                 </Button>
             </Link>
             <Link href='/Client' underline="none">
