@@ -16,7 +16,7 @@ const Dashboard = () => {
                     Try to Click me!
                 </Button>
             </Link>
-            <Link href='/Pricing' underline="none">
+            <Link href='/Client' underline="none">
                 <Button
                     variant='contained'
                     color='success'
